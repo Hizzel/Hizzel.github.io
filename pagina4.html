@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Jefes de Terraria</title>
+                <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+                <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            .texto2 {
+      color: #ffffff;
+      text-align: justify;
+      border: 2px solid #000; 
+      margin-left: 100px;
+      margin-right: 100px;
+      padding: 10px;
+      background-color: #3f3b32;
+      }
+      img {
+    margin-left: 300px;
+    
+    
+}
+.background {
+      background-color: #90e189;  
+      position: fixed; 
+      top: 0; 
+      left: 0; 
+      width: 100%; 
+      height: 100%; 
+      background-image: url("IMG/bag1.png") ;
+      filter: blur(5px); 
+      z-index: -1;
+      background-size: contain; 
+      
+    }
+    
+        </style>
+        <script>
+        $(document).ready(function() {
+            // Al hacer clic en un enlace de la barra lateral
+            $('.list-group-item').click(function(event) {
+              // Evita el comportamiento por defecto del enlace (navegar a la misma página)
+              event.preventDefault();
+          
+              // Obtén el ID del elemento de contenido al que se debe navegar
+              var targetId = $(this).attr('data-bs-target');
+          
+              // Desplázate suavemente hasta el elemento de contenido
+              $('html, body').animate({
+                scrollTop: $(targetId).offset().top
+              }, 500);
+            });
+          });
+          </script>
+    </head>
+    <body>
+    <div class="background"></div>
+        <div class="d-flex" id="wrapper">
+                        <div class="border-end bg-white" id="sidebar-wrapper">
+                <div class="sidebar-heading border-bottom bg-light">Jefes</div>
+                <div class="list-group list-group-flush">
+  <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#maldadesContent" data-bs-target="#">Maldades del mundo</a>
+  <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#murallaContent" data-bs-target="#">Muralla de carne</a>
+  <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#jefesMecanicosContent" data-bs-target="#">Jefes mecánicos</a>
+  <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#planteraContent" data-bs-target="#planteraContent">Plantera</a>
+  
+                </div>
+            </div>
+  <div id="page-content-wrapper">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <div class="container-fluid">
+        <button class="btn btn-primary" id="sidebarToggle">Alternar menú</button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li class="nav-item active"><a class="nav-link" href="Pagina Principal.html">Principal</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br> <br> <br> <br> 
+    <div class="texto2"   
+<p> En este apartado vamos a hablar de los jefes principales para completar una  partida en terraria; aunque en terraria hay muchos jefes (mas de 16 sin contar los jefes de eventos, porque nos vamos como a 32) no todos estos jefes son primordiales para avanzar, es verdad que muchos desbloquean mecanicas, como skeletron con la mazmorra o la abeja reina con sus armas poderosas, pero podemos dividir el juego en los jefes mas importantes en una progresion constante en cada partida, podemos percibirlos como hitos a lograr. 
+
+        Aunque muchos jugadores tienen sus metodos de que conseguir como equiparse aqui solamente voy a hablar del jefe y una estrategia de como vencerlo. 
+        </p> </div>
+        <br><br><br><br>
+    <div id="maldadesContent" class="container-fluid content-section">
+      <h1>Maldades del mundo</h1>
+      <br><br>
+      <div class="texto2" >
+      <p>Como primer hito tenemos a los jefes de las maldades que acechan tu mundo, son bosses similares aunque con patrones diferentes y estos desbloquean el potencial de picar roca fundida en el inframundo. Para derrotarlos nesesitaremos armas con suficiente perforacion para los diferentes segmentos de los jefes, se recomiendo poner 3 plataformas que cubran todo el centro del crimsom o una plataforma larga en la corrupcion. 
+      </p>
+    </div>
+    <br><br><br>
+    <img src="imagenes/maldades.jpg" style="text-align: center; width: 50%; height: auto;">
+
+    <div id="murallaContent" class="container-fluid content-section">
+        <h1>Muralla de carne</h1>
+        <br><br>
+      <div class="texto2" >
+      <p>Como siguiente jefe tenemos a la muralla de carne, la cual desbloquea el hardmode de terraria es un jefe complicado si no se tiene una preparacion previa y conocimientos de que hace; este es un jefe que cubre todo el inframundo, desde el suelo hasta el techo de este, teniendo 3 puntos débiles sus ojos y su boca, en este jefe se recomienda como primero y principal hacer una plataforma de piedra preferiblemente, pero puede ser cualquier bloque, que recorra todo el inframundo o una porción grande de este  ya que es un jefe que crea un tipo de auto-scroll al combatirlo, en recomendacion de armas tenemos la granada de abeja y el arco de abeja, tambien la guadaña demoniaca. </p>
+    </div>
+    <br><br><br>
+    <img src="imagenes/muralla.jpg" style="text-align: center; width: 50%; height: auto;">
+    </div>
+    <div id="jefesMecanicosContent" class="container-fluid content-section"></div>
+        <h1>Jefes mecanicos</h1>
+        <br><br>
+      <div class="texto2" >
+      <p>Como siguientes triada de jefes tenemos a los jefes mecanicos, que desbloquean al siguiente jefe guardian de la selva, estos 3 jefes tienen comportamientos diferentes entre el destructor es un gusano mecanico con la misma forma de combate del devorador de mundos, los gemelos mecanicos los cuales uno(el verde) persigue intensamente y muy de cerca mientras que el otro(el rojo) dispara lazeres desde lejos y mantiene su distancia, por ultimo skeletron prime, el hermano mayor de skeletron el cual tiene la misma mecanica pero con 2 brazos extra y estos teniendo caracteristacas individuales. Como estrategia se recomienda una plataforma aérea con muchos bloques de diametro o una serie de plataformas una encima de la otra pero con una separacion considerable. Se recomienda mucho tener cualquier tipo de ala para este punto las cuales hacen muchas veces mas facil a estos jefes,ademas si se logra derrotar a alguno crear armas usando las barras benditas que estos sueltan.  </p>
+    </div>
+    <br><br><br>
+    <img src="imagenes/mecanicos.jpg" style="text-align: center; width: 50%; height: auto;">
+    </div>
+    <div id="planteraContent" class="container-fluid content-section"></div>
+        <h1>Plantera</h1>
+        <br><br>
+      <div class="texto2" >
+      <p>Como siguiente jefe tenemos a plantera uno de los jefes mas dificiles para jugadores novatos y una de las mejores “musica de jefe” del juego. Esta es un jefe planta que se desplaza agarrandose al terreno siguiendote de cerca y teniendo 3 diferentes tipos de proyectiles, este jefe igual que sus predecesores los jefes mecanicos tiene una segunda fase la cual le hace moverse veloz mente hacia ti y saca algunos subditos alrededor de este el cual bloquea daño y hacen que el jefe sea mas grande y dificil de esquivar. Este jefe tiene muchas formas de derrotarse y hay muchas recomendaciones para este, en mi caso recomiendo destruir un area grande en el corazon de la selva el cual te permita moverte con libertad buenas alas ademas de armas y armaduras soltadas por los jefes anteriores.  </p>
+    </div>
+    <br><br><br>
+    <img src="imagenes/plantera.jpg" style="text-align: center; width: 50%; height: auto;">
+    </div>
+   
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </body>
+</html>
